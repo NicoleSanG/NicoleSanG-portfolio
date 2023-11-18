@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --darkpink: #ff3bba;
+  --lightblue: #3bfffc;
+  --purple: #941cfc;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  background-color: black;
+  color: var(--darkpink);
+}
+/*nav bar*/
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vw;
+}
+.nav-bar {
+  display: flex;
+  gap: 5vw;
+  font-size: 18px;
+}
+
+a {
+  color: var(--lightblue);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--darkpink);
+
+  text-decoration: dotted;
+}
+a:active {
+  color: var(--darkpink);
+}
+/*nav bar*/
+
+/*hero banner*/
+
+h1 {
+  color: var(--darkpink);
+  font-size: 40px;
+}
+p {
+  color: var(--purple);
+}
+.hero-image {
+  background-image: url("../images/hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 10vw;
+  text-align: center;
+  position: relative;
+}
+.hero-image h2 {
+  color: var(--lightblue);
+  position: absolute;
+  margin: 3vw;
+  bottom: 0;
+  left: 0;
+  font-size: 25px;
+}
+
+.avatar {
+  filter: drop-shadow(10px 5px 20px var(--darkpink));
+  width: 400px;
+  height: auto;
+  padding-left: 10vw;
+}
+
+/*hero banner*/
