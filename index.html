@@ -1,102 +1,106 @@
 <!DOCTYPE html>
 <html lang="en-gb">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Nicole Santamaria/ Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <!-- main logo / nav -->
-    <header>
-      <div class="navigation">
-        <div><h1>NICOLE SANTAMARIA</h1></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Nicole Santamaria/ Portfolio</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- main logo / nav -->
+  <header>
+    <div class="navigation">
+      <div>
+        <h1>NICOLE SANTAMARIA</h1>
+      </div>
+      <div>
+        <nav class="nav-bar">
+          <a href="#about">About me</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact me</a>
+          <a href="./assets/pdf/CV.pdf" target="_blank">Resume</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- hero banner -->
+  <section class="hero-banner">
+    <div class="hero-image">
+      <h2>Front-end developer</h2>
+    </div>
+  </section>
+
+  <main id="main-grid">
+    <!-- about me -->
+    <section class="section" id="about">
+      <div id="avatar-about">
         <div>
-          <nav class="nav-bar">
-            <a href="#about">About me</a>
-            <a href="#work">Work</a>
-            <a href="#contact">Contact me</a>
-           <a href="./assets/pdf/CV.pdf" target="_blank">Resume</a>
-          </nav>
+          <img src="./assets/images/nicole.png" class="avatar" alt="profile avatar" />
+        </div>
+        <div>
+          <h2>About Me</h2>
         </div>
       </div>
-    </header>
-
-    <!-- hero banner -->
-    <section class="hero-banner">
-      <div class="hero-image">
-        <h2>Front-end developer</h2>
+      <div id="about-paragraph">
+        <p>
+          Hi! I'm Nicole, a Front-end developer passionate about coding,
+          design, art, traveling and dogs.
+        </p>
       </div>
     </section>
 
-    <main id="main-grid">
-      <!-- about me -->
-      <section class="section" id="about">
-        <div id="avatar-about">
-          <div>
-            <img
-              src="./assets/images/nicole.png"
-              class="avatar"
-              alt="profile avatar"
-            />
-          </div>
-          <div>
-            <h2>About Me</h2>
-          </div>
+    <!-- portfolio container -->
+    <section class="section" id="work">
+      <div id="work-title">
+        <h2>Work</h2>
+      </div>
+      <div id="workGrid">
+        <div id="restaurant" class="workGridArea" onclick="window.open('https://nicolesang.github.io/Restaurant/')">
+          <div class="heading">Restaurant</div>
         </div>
-        <div id="about-paragraph">
-          <p>
-            Hi! I'm Nicole, a Front-end developer passionate about coding, 
-            design, art, traveling and dogs.
-          </p>
+        <div id="meowMatch" class="workGridArea" onclick="window.open('https://nicolesang.github.io/MeowMatch/')">
+          <div class="heading">MeowMatch</div>
         </div>
-      </section>
+        <div id="introduction" class="workGridArea" onclick="window.open('https://nicolesang.github.io/Introduction/')">
+          <div class="heading">Introduction</div>
+        </div>
+        <div id="barbie" class="workGridArea" onclick="window.open('https://nicolesang.github.io/csb-sj4vd3/')" ">
+            <div class=" heading">Barbie web</div>
+      </div>
+      <div id="comingSoon" class="workGridArea" onclick="window.open('https://github.com/NicoleSanG')">
+        <div class="heading">Coming soon</div>
+      </div>
+      </div>
+    </section>
 
-      <!-- portfolio container -->
-      <section class="section" id="work">
-        <div id="work-title">
-          <h2>Work</h2>
-        </div>
-        <div id="workGrid">
-          <div id="restaurant" class="workGridArea" onclick="window.open('https://nicolesang.github.io/Restaurant/')">
-            <div class="heading">Restaurant</div>
-          </div>
-          <div id="meowMatch" class="workGridArea" onclick="window.open('https://nicolesang.github.io/MeowMatch/')">
-            <div class="heading">MeowMatch</div>
-          </div>
-          <div id="introduction" class="workGridArea" onclick="window.open('https://nicolesang.github.io/Introduction/')">
-            <div class="heading">Introduction</div>
-          </div>
-          <div id="barbie" class="workGridArea" onclick="window.open('https://nicolesang.github.io/csb-sj4vd3/')"
-          ">
-            <div class="heading">Barbie web</div>
-            </div>
-            <div id="comingSoon" class="workGridArea" onclick="window.open('https://github.com/NicoleSanG')">
-              <div class="heading">Coming soon</div>
-          </div>
-        </div>
-      </section>
-
-      <!-- contact -->
-      <section class="section" id="contact">
-        <div id="contact1"><h2>Contact Me</h2></div>
-        <div id="contact2"><ul>
+    <!-- contact -->
+    <section class="section" id="contact">
+      <div id="contact1">
+        <h2>Contact Me</h2>
+      </div>
+      <div id="contact2">
+        <ul>
           <li><a href="#"> +123456788</a></li>
           <li><a href="#">nicolesantamariaranizo@gmail.com</a></li>
-          <li><a href="https://github.com/NicoleSanG" target="_blank">GitHub</a></li>
-          <li><a href="https://www.linkedin.com/in/karen-nicole-santamar%C3%ADa" target="_blank">LinkedIn</a></li>
-        </ul></div>
-        
-      </section>
+          <li><a href="https://github.com/NicoleSanG" target="_blank">
+            <img src="./assets/images/github.png" alt="github cat whitw silhouette logo">
+          </a></li>
+          <a href="https://www.linkedin.com/in/karen-nicole-santamar%C3%ADa" target="_blank">
+            <img src="./assets/images/linkedin.png" alt="linkedin white logo">
+          </a>
+        </ul>
+      </div>
 
-    </main>
-  </body>
+    </section>
+
+  </main>
+</body>
+
 </html>
