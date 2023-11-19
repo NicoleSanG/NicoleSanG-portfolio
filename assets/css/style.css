@@ -180,4 +180,9 @@ ul {
   transform: scale(1.1);
   filter: drop-shadow(10px 10px 20px var(--purple));
 }
+.github-logo:hover, .linkedin-logo:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  filter: drop-shadow(12px 8px 8px var(--purple));
+}
 /*Work grid*/
