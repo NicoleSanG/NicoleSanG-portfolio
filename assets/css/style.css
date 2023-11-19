@@ -5,7 +5,7 @@
 }
 :root {
   --darkpink: #ff3bba;
-  --lightblue: #3bfffc;
+  --lightblue: #36ffff;
   --purple: #941cfc;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 a {
-  color: var(--lightblue);
+  color: var(--purple);
   text-decoration: none;
 }
 a:hover {
@@ -37,19 +37,21 @@ a:hover {
 
   text-decoration: dotted;
 }
-a:active {
-  color: var(--darkpink);
-}
 /*nav bar*/
 
 /*hero banner*/
 
 h1 {
-  color: var(--darkpink);
+  color: var(--purple);
   font-size: 40px;
 }
-p {
+h2 {
   color: var(--purple);
+  font-size: 30px;
+ 
+}
+p {
+  color: white;
 }
 .hero-image {
   background-image: url("../images/hero.jpg");
@@ -61,19 +63,99 @@ p {
   position: relative;
 }
 .hero-image h2 {
-  color: var(--lightblue);
+  color: white;
   position: absolute;
   margin: 3vw;
   bottom: 0;
   left: 0;
   font-size: 25px;
 }
+/*hero banner*/
 
+/*All sections display*/
 .avatar {
   filter: drop-shadow(10px 5px 20px var(--darkpink));
-  width: 400px;
+  width: 15vw;
   height: auto;
-  padding-left: 10vw;
+  padding-bottom: 2vw;
+}
+#avatar-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section { 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  padding: 3vw 3vw;
 }
 
-/*hero banner*/
+#avatar-about, /*section titles on the left side*/
+#work-title {
+  width: 25%;
+  text-align: center;
+}
+#about-paragraph, /*section content on the right side*/
+#workGrid {
+  width: 75%;
+  padding-left: 3vw;
+  border-left: 5px solid var(--purple);
+}
+/*All sections display*/
+/*Work grid*/
+#workGrid{
+  margin: 0px 5%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 300px 200px 200px;
+  grid-template-areas:
+    "restaurant restaurant"
+    "meowMatch introduction"
+    "barbie comingSoon";
+}
+#restaurant {
+  grid-area: restaurant;
+  background-image: url("../images/restaurant-gd.png");
+}
+
+#meowMatch {
+  grid-area: meowMatch;
+  background-image: url("../images/meow-app.png");
+}
+
+#introduction {
+  grid-area: introduction;
+  background-image: url("../images/get-to-know-me.png");
+}
+
+#barbie {
+  grid-area: barbie;
+  background-image: url("../images/barbie.png");
+}
+#comingSoon {
+  grid-area: comingSoon;
+  background-image: url("../images/comingsoon.jpg");
+}
+.workGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+.heading {
+  background-color: var(--purple);
+  padding: 10px;
+  height: 40px;
+  color: white;
+  font-size: 18px;
+ position: relative;
+}
+/*Work grid*/
+
+/*page-wrapper*/

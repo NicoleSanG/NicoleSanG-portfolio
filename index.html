@@ -37,34 +37,59 @@
       </div>
     </section>
 
-    <main class="page-wrapper">
+    <main id="main-grid">
       <!-- about me -->
-      <section class="page-section" id="about">
-        <img
-            src="./assets/images/nicole.png"
-            class="avatar"
-            alt="profile avatar"
-          />
-        <h2>About Me</h2>
-        <article>
+      <section class="section" id="about">
+        <div id="avatar-about">
+          <div>
+            <img
+              src="./assets/images/nicole.png"
+              class="avatar"
+              alt="profile avatar"
+            />
+          </div>
+          <div>
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div id="about-paragraph">
           <p>
-            Hi! I'm Nicole, a Front-end developer passionate about coding and
-            design.
+            Hi! I'm Nicole, a Front-end developer passionate about coding, 
+            design, art, traveling and dogs.
           </p>
-        </article>
+        </div>
       </section>
 
       <!-- portfolio container -->
-      <section class="page-section" id="work">
-        <h2>Work</h2>
+      <section class="section" id="work">
+        <div id="work-title">
+          <h2>Work</h2>
+        </div>
+        <div id="workGrid">
+          <div id="restaurant" class="workGridArea" onclick="window.location.href='https://nicolesang.github.io/Restaurant/'">
+            <div class="heading">Restaurant</div>
+          </div>
+          <div id="meowMatch" class="workGridArea" onclick="window.location.href='https://nicolesang.github.io/MeowMatch/'">
+            <div class="heading">MeowMatch</div>
+          </div>
+          <div id="introduction" class="workGridArea" onclick="window.location.href='https://nicolesang.github.io/Introduction/'">
+            <div class="heading">Introduction</div>
+          </div>
+          <div id="barbie" class="workGridArea" onclick="window.location.href='https://nicolesang.github.io/csb-sj4vd3/'">
+            <div class="heading">Barbie web</div>
+            </div>
+            <div id="comingSoon" class="workGridArea" onclick="window.location.href='https://github.com/NicoleSanG'">
+              <div class="heading">Coming soon</div>
+          </div>
+        </div>
       </section>
 
       <!-- contact -->
-      <section class="page-section contact" id="contact">
+      <section class="section" id="contact">
         <h2>Contact Me</h2>
       </section>
 
-      <section class="page-section contact" id="resume">
+      <section class="section" id="resume">
         <h2>Resume</h2>
       </section>
     </main>
