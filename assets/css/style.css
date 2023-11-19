@@ -180,9 +180,32 @@ ul {
   transform: scale(1.1);
   filter: drop-shadow(10px 10px 20px var(--purple));
 }
+/*Work grid*/
+/*contact section*/
 .github-logo:hover, .linkedin-logo:hover{
   transform: scale(1.1);
   transition: transform 0.3s ease;
   filter: drop-shadow(12px 8px 8px var(--purple));
 }
-/*Work grid*/
+/*contact section*/
+/*footer*/
+.footer-content{
+  padding-top: 3vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top: 3px solid var(--purple);
+}
+.nav-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+}
+.copyright{
+ font-size: 16px;
+}
+
+/*footer*/
