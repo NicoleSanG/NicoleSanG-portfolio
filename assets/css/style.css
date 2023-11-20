@@ -4,7 +4,7 @@
   padding: 0;
 }
 :root {
-  --darkpink: #ff3bba;
+  --dark-pink: #ff3bba;
   --light-purple:#e8d4fc;
   --purple: #941cfc;
   --dark-purple: #160133;
@@ -14,7 +14,7 @@ body {
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
   background-color: var(--dark-purple);
-  color: var(--darkpink);
+  color: var(--dark-pink);
 }
 /*nav bar*/
 .navigation {
@@ -33,7 +33,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: var(--darkpink);
+  color: var(--dark-pink);
 }
 /*nav bar*/
 
@@ -71,7 +71,7 @@ p {
 
 /*All sections display*/
 .avatar {
-  filter: drop-shadow(10px 5px 20px var(--darkpink));
+  filter: drop-shadow(10px 5px 20px var(--dark-pink));
   width: 15vw;
   height: auto;
   padding-bottom: 2vw;
@@ -223,3 +223,21 @@ ul {
   font-size: 16px;
 }
 /*footer*/
+
+@media screen and (max-width: 100px) {
+}
+@media only screen and (max-width: 768px) {
+/*nav bar*/
+.navigation {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  padding: 5vw;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+}
+/*nav bar*/
+
+}
