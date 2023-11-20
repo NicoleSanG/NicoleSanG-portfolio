@@ -5,13 +5,15 @@
 }
 :root {
   --darkpink: #ff3bba;
+  --light-purple:#e8d4fc;
   --purple: #941cfc;
+  --dark-purple: #160133;
 }
 
 body {
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
-  background-color: black;
+  background-color: var(--dark-purple);
   color: var(--darkpink);
 }
 /*nav bar*/
@@ -46,7 +48,7 @@ h2 {
   font-size: 30px;
 }
 p {
-  color: white;
+  color: var(--light-purple);
 }
 .hero-image {
   background-image: url("../images/hero.jpg");
@@ -58,7 +60,7 @@ p {
   position: relative;
 }
 .hero-image h2 {
-  color: white;
+  color: var(--light-purple);
   position: absolute;
   margin: 3vw;
   bottom: 0;
@@ -173,7 +175,7 @@ ul {
   background-color: var(--purple);
   padding: 10px;
   height: 40px;
-  color: white;
+  color: var(--light-purple);
   font-size: 18px;
   position: relative;
 }
