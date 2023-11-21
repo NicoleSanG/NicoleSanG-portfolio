@@ -1,8 +1,17 @@
 # NicoleSanG-portfolio
 
-This project is the portfolio I've created to showcase my work and all the programming and design skills I've learnt during my previous studies and the Bootcamp.
+This project serves as my portfolio, designed to showcase the programming and design skills I've acquired through my previous studies and during the Bootcamp.
 
 ## Usage
+
+- This image displays the portfolio's desktop view. To navigate to specific sections (About Me, Work, Contact), click on the respective options in the navigation bar located at the top right corner. 
+- Additionally, you can access my resume in PDF format by clicking on "Resume." 
+- The menu at the bottom left corner on the footer, provides the same functionality.
+- Click on any part of each image in the Work section to open the deployed project in a new window.
+- For a closer look at my GitHub and LinkedIn profiles, click on the corresponding logos in the Contact Me section.
+
+
+![Desktop view](assets/images/desktop.jpeg)
 
 
 ## Credits
@@ -10,7 +19,9 @@ This project is the portfolio I've created to showcase my work and all the progr
 Hero image courtesy of https://www.freepik.com/
 GitHub and LinkedIn icons: https://icons8.com/icons
 
-Code used to direct the user to the deployed projects on a new window when clicked on the portfolio work section (onclick="window.open('/path')), suggested by tutor Phillip Loyd during a tutoring session.
+I've implemented code to open deployed projects in a new window when users click on the portfolio work section. This was suggested by tutor Phillip Loyd during a tutoring session.
+Code snippet in HTML:
+onclick="window.open('/path')
 
 ## License
 MIT License
