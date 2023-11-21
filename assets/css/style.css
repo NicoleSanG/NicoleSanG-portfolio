@@ -237,9 +237,11 @@ ul {
   .nav-bar {
     display: flex;
     justify-content: space-evenly;
+    padding-top: 5vw ;
   }
   h1 {
     font-size: 35px;
+    margin-top: 7vw;
   }
   /*nav bar*/
   /*hero banner*/
@@ -250,7 +252,7 @@ ul {
   /*All sections display*/
   .avatar {
     width: 40vw;
-    padding-bottom: 2vw;
+    padding: 5vw 0 2vw;
   }
   #avatar-about {
     display: flex;
@@ -299,6 +301,9 @@ ul {
   }
   /*All sections display*/
   /*contact section*/
+  ul a{
+    color: var(--light-purple);
+  }
   .github-logo,
 .linkedin-logo {
   width: 10vw;
