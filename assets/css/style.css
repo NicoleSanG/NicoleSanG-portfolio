@@ -190,6 +190,9 @@ ul {
 }
 /*Work grid*/
 /*contact section*/
+ul a {
+  color: var(--light-purple);
+}
 .github-logo,
 .linkedin-logo {
   width: 4vw;
@@ -204,8 +207,7 @@ ul {
 /*footer*/
 .footer-content {
   margin-top: 5vw;
-  padding-top: 3vw;
-  padding-bottom: 3vw;
+  padding: 3vw 0;
   display: flex;
   flex-wrap: wrap;
   justify-items: center;
@@ -237,7 +239,7 @@ ul {
   .nav-bar {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 5vw ;
+    padding-top: 5vw;
   }
   h1 {
     font-size: 35px;
@@ -301,13 +303,21 @@ ul {
   }
   /*All sections display*/
   /*contact section*/
-  ul a{
-    color: var(--light-purple);
-  }
   .github-logo,
-.linkedin-logo {
-  width: 10vw;
+  .linkedin-logo {
+    width: 10vw;
+  }
+  /*contact section*/
+  /*footer*/
+  .footer-content {
+    padding-top: 5vw;
+    flex-direction: column;
+  }
+  .nav-footer {
+    margin-bottom: 3vw;
+  }
+  .copyright {
+    padding: 5vw;
+    text-align: center;
+  }
 }
-/*contact section*/
-}
-
