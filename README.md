@@ -1,9 +1,16 @@
 # NicoleSanG-portfolio
-Nicole Santamaría Portfolio
 
-# Credits
+This project is the portfolio I've created to showcase my work and all the programming and design skills I've learnt during my previous studies and the Bootcamp.
+
+## Usage
+
+
+## Credits
+
 Hero image courtesy of https://www.freepik.com/
-icons: https://icons8.com/icons
+GitHub and LinkedIn icons: https://icons8.com/icons
+
+Code used to direct the user to the deployed projects on a new window when clicked on the portfolio work section (onclick="window.open('/path')), suggested by tutor Phillip Loyd during a tutoring session.
 
 ## License
 MIT License
@@ -27,3 +34,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## Badges
+
+![badmath](https://img.shields.io/badge/CSS-57.4-purple)
+![badmath](https://img.shields.io/badge/HTML-42.6-blue)
