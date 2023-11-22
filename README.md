@@ -2,7 +2,10 @@
 
 This project serves as my portfolio, designed to showcase the programming and design skills I've acquired through my previous studies and during the Bootcamp.
 
+
 ## Usage
+
+Deployed portfolio URL: https://nicolesang.github.io/NicoleSanG-portfolio/
 
 - This image displays the portfolio's desktop view. To navigate to specific sections (About Me, Work, Contact), click on the respective options in the navigation bar located at the top right corner. 
 - Additionally, you can access my resume in PDF format by clicking on "Resume." 
